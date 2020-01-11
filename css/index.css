@@ -1,3 +1,12 @@
+.nav-display {
+  padding: 1.5% 25%;
+  text-align: center;
+}
+.menu-display {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,6 +169,20 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav-bar {
+  background-color: #F6F6F6;
+  padding: 1.5% 25%;
+  text-align: center;
+}
+.nav-bar .menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.nav-bar .menu a {
+  text-decoration: none;
+  color: #5E6164;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +192,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  display: flex;
+  flex-direction: column;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
