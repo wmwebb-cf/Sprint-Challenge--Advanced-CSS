@@ -64,6 +64,15 @@
       }
 
       .btn {
+        .action-btn(30%; @porcelain; @btn-bg-color; 2rem);
+        border-radius: 5px;
+        padding: 8px 12px;
+        text-align: center;
+
+        &:hover {
+          background-color: lighten(@btn-bg-color, 15%);
+          transition-duration: 250ms;
+        }
       }
     }
 
