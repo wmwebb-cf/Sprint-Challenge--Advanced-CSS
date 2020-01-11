@@ -1,1 +1,20 @@
 // Mixins Here
+
+.nav-display {
+  padding: 1.5% 25%;
+  text-align: center;
+}
+
+.menu-display {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+//Sign-up button
+.action-btn (@w; @c; @bc; @fs) {
+  width: @w;
+  color: @c;
+  background-color: @bc;
+  font-size: @fs;
+}
